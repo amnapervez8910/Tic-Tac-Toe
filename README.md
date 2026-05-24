@@ -36,7 +36,7 @@ A simple console-based Tic Tac Toe game implemented in C++ using object-oriented
       ./tic_tac_toe
       ```
 
-4. Follow on-screen instructions to play the game.
+4. Follow on-screen instructions to play game.
 
 ---
 
