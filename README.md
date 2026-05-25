@@ -117,10 +117,3 @@ scanf("%d", &choice);
 ```
 
 ---
-
-## 👨‍💻 Author
-
-**Amna Pervez**
-
----
-
