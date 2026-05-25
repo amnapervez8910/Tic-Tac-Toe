@@ -1,65 +1,129 @@
-# Tic Tac Toe - C++ Console Game
+# 🎮 Tic Tac Toe in C
 
-A simple console-based Tic Tac Toe game implemented in C++ using object-oriented programming. Two players take turns to mark X and O on a 3x3 grid until one wins or the game ends in a draw.
-
----
-
-## Features
-
-- Text-based UI displaying the game board.  
-- Input validation to prevent invalid moves.  
-- Win detection for all rows, columns, and diagonals.  
-- Draw detection when no more moves are possible.  
-- Cross-platform clear screen functionality (Windows/Linux/Mac).  
+A simple console-based **Tic Tac Toe** game developed in **C language** as a Programming Fundamentals project.  
+This project demonstrates core programming concepts including arrays, functions, loops, conditional statements, and user interaction.
 
 ---
 
-## How to Use
+## ✨ Features
 
-1. Clone or download this repository.
-
-2. Compile the code using a C++ compiler. For example, with g++:
-
-    ```bash
-    g++ tic_tac_toe.cpp -o tic_tac_toe
-    ```
-
-3. Run the compiled executable:
-
-    - On Windows:  
-      ```bash
-      tic_tac_toe.exe
-      ```
-    
-    - On Linux/macOS:  
-      ```bash
-      ./tic_tac_toe
-      ```
-
-4. Follow on-screen instructions to play game.
+- ✅ Interactive turn-based gameplay
+- ✅ Input validation
+- ✅ Prevents overwriting occupied cells
+- ✅ Win detection using rows, columns, and diagonals
+- ✅ Draw detection
+- ✅ Dynamic console board display
+- ✅ Cross-platform screen clearing support (`clear` / `cls`)
 
 ---
 
-## Code Structure
+## 🛠 Technologies Used
 
-- `TicTacToe` class encapsulates the game logic:  
-  - `square` vector holds the current board state.  
-  - `checkWin()` checks the game status (win/draw/ongoing).  
-  - `drawBoard()` displays the board.  
-  - `playGame()` controls the game loop and player input.
+- **Language:** C
+- **Compiler:** GCC / Turbo C / Visual Studio
+- **Platform:** Console Application
 
 ---
 
-## Requirements
+## ▶️ How to Run
 
-- A C++ compiler that supports C++11 or later (for example, g++, clang++, MSVC).  
-- Compatible with Windows, Linux, and macOS.
+### 🔹 Using GCC Compiler
+
+Compile the program:
+
+```bash
+gcc tic_tac_toe.c -o tic_tac_toe
+```
+
+Run the executable:
+
+```bash
+./tic_tac_toe
+```
 
 ---
 
-## Author
+### 🔹 On Windows
 
-**Amna Pervez**  
-Email: amnapervez8910@gmail.com
+If using MinGW:
+
+```bash
+gcc tic_tac_toe.c -o tic_tac_toe.exe
+tic_tac_toe.exe
+```
 
 ---
+
+## 🎯 Game Rules
+
+1. The game is played by 2 players
+2. Players choose positions from 1 to 9
+3. Each number corresponds to a position on the board
+
+Example:
+
+```text
+ 1 | 2 | 3
+-----------
+ 4 | 5 | 6
+-----------
+ 7 | 8 | 9
+```
+
+4. The first player to align 3 marks horizontally, vertically, or diagonally wins
+5. If all positions are filled and no player wins, the game ends in a draw
+
+---
+
+## 🖥 Sample Gameplay
+
+```text
+Tic Tac Toe
+
+Player 1 (X) - Player 2 (O)
+
+ X | O | X
+-----------
+ O | X | O
+-----------
+ X | 8 | 9
+
+==> Player 1 wins
+```
+
+---
+
+## ⚠️ Notes
+
+- Replace:
+
+```c
+system("clear");
+```
+
+with:
+
+```c
+system("cls");
+```
+
+if running on Windows.
+
+- `scanf_s()` works in Visual Studio.  
+  For GCC/Linux, replace it with:
+
+```c
+scanf("%d", &choice);
+```
+
+---
+
+## 👨‍💻 Author
+
+**Amna Pervez**
+
+---
+
+## 📜 License
+
+This project is created for educational purposes and is free to use.
