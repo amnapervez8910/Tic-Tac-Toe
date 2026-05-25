@@ -124,6 +124,3 @@ scanf("%d", &choice);
 
 ---
 
-## 📜 License
-
-This project is created for educational purposes and is free to use.
