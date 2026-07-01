@@ -1,4 +1,4 @@
-# 🎮 Tic Tac Toe in C
+# 🎮 Tic Tac Toe i C
 
 A simple console-based **Tic Tac Toe** game developed in **C language** as a Programming Fundamentals project.  
 This project demonstrates core programming concepts including arrays, functions, loops, conditional statements, and user interaction.
